@@ -32,7 +32,7 @@ GET /wp-json/kopa/v1/shopinshop/categories/vendor/{vendor_id}
 ### Get All Categories
 
 ```
-GET /wp-json/kopa/v1/shopinshop/categories/list
+GET /wp-json/kopa/v1/shopinshop/categories
 ```
 
 Both endpoints require WooCommerce API authentication using consumer key and secret.
@@ -44,6 +44,20 @@ The plugin implements WooCommerce API authentication to ensure secure access to 
 ## License
 
 This plugin is licensed under the GPL v2 or later.
+
+## Changelog
+
+### 1.0.1
+
+- Changed categories endpoint, removed /list slug.
+
+### 1.0.0
+
+- Initial release
+- Added REST API endpoints for vendor product categories
+- Implemented WooCommerce API authentication
+- Added support for getting vendor-specific categories
+- Added support for getting all product categories
 
 ## Support
 

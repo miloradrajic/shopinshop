@@ -58,7 +58,7 @@ class ShopInShop
       ]
     ));
 
-    register_rest_route('kopa/v1', '/shopinshop/categories/list', array(
+    register_rest_route('kopa/v1', '/shopinshop/categories', array(
       'methods' => 'GET',
       'callback' => array($this, 'get_product_categories'),
       'permission_callback' => array($this, 'validate_woocommerce_api_auth'),

@@ -3,7 +3,7 @@
  * Plugin Name: Shop in Shop TP
  * Plugin URI: https://tp.rs/
  * Description: A WooCommerce extension that provides REST API endpoints for vendor product categories
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Technology Partnership
  * Author URI: https://tp.rs/
  * Text Domain: shopinshop
